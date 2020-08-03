@@ -29,6 +29,8 @@ public class Comment {
     @Temporal(TemporalType.TIMESTAMP)
     private Date createTime;
 
+    private boolean adminComment;
+
     @ManyToOne
     private Blog blog;
 

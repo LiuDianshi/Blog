@@ -3,14 +3,14 @@
 <head th:replace="_fragments :: head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-    <title>标签</title>
+    <title>搜索结果</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="../static/css/me.css">
 
 </head>
 <body>
     <!-- 导航栏 -->
-    <nav th:replace="_fragments :: menu(3)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <nav th:replace="_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
         <div class="ui container">
             <div class="ui inverted secondary stackable menu">
                 <h2 class="ui teal header item">Dianshi Blog</h2>
@@ -39,29 +39,12 @@
             <div class="ui top attached segment">
                 <div class="ui middle aligned two column grid">
                     <div class="column">
-                        <h2 class="ui teal header">标签</h2>
+                        <h2 class="ui teal header">搜索结果</h2>
                     </div>
                     <div class="right aligned column">
-                        共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${#arrays.length(tags)}">14</h2> 个条目
+                        共 <h2 class="ui orange header m-inline-block m-text-thin" th:text="${page.totalElements}">14</h2> 个条目
                     </div>
                 </div>
-            </div>
-
-            <div class="ui attached segment m-padded-tb-large">
-                <a href="#" th:href="@{/tags/{id}(id=${tag.id})}" class="ui basic left pointing large label m-margin-tb-tiny" th:classappend="${tag.id==activeTagId} ? 'teal'" th:each="tag : ${tags}">
-                    <span th:text="${tag.name}">编程</span> <div class="detail" th:text="${#arrays.length(tag.blogs)}">23</div></a>
-                <!--/*-->
-                <a href="#" target="_blank" class="ui basic left pointing large label m-margin-tb-tiny">
-                    嗑盐 <div class="detail">15</div></a>
-                <a href="#" target="_blank" class="ui basic left pointing large label m-margin-tb-tiny">
-                    MySQL <div class="detail">12</div></a>
-                <a href="#" target="_blank" class="ui basic left pointing large label m-margin-tb-tiny">
-                    Spring <div class="detail">26</div></a>
-                <a href="#" target="_blank" class="ui basic left pointing large label m-margin-tb-tiny">
-                    Redis <div class="detail">5</div></a>
-                <a href="#" target="_blank" class="ui basic left pointing large label m-margin-tb-tiny">
-                    Docker <div class="detail">6</div></a>
-                <!--*/-->
             </div>
 
             <div class="ui top attached teal segment">
@@ -71,29 +54,22 @@
                             <h3 class="ui header"><a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black" th:text="${blog.title}">你真的理解什么是 Spring 吗？</a></h3>
                             <p class="m-black" th:text="|${blog.description}......|">Spring框架是由于软件开发的复杂性而创建的。Spring使用的是基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅仅限于服务器端的开发···</p>
                             <div class="ui grid m-margin-tb-tiny">
-                                <div class="row">
-                                    <div class="eleven wide column">
-                                        <div class="ui mini horizontal link list">
-                                            <div class="item">
-                                                <img src="https://unsplash.it/100/100?image=1005" th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image">
-                                                <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">Dianshi</a></div>
-                                            </div>
-                                            <div class="item">
-                                                <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2020.7.17</span>
-                                            </div>
-                                            <div class="item">
-                                                <i class="eye icon"></i><span th:text="| ${blog.views}|">123</span>
-                                            </div>
+                                <div class="eleven wide column">
+                                    <div class="ui mini horizontal link list">
+                                        <div class="item">
+                                            <img src="https://unsplash.it/100/100?image=1005" th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image">
+                                            <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">Dianshi</a></div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="calendar icon"></i><span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2020.7.17</span>
+                                        </div>
+                                        <div class="item">
+                                            <i class="eye icon"></i><span th:text="| ${blog.views}|">123</span>
                                         </div>
                                     </div>
-                                    <div class="right aligned five wide column">
-                                        <a href="#" target="_blank" th:href="@{/types/{id}(id=${blog.type.id})}" class="ui teal basic label m-text-thin" th:text="${blog.type.name}">Java</a>
-                                    </div>
                                 </div>
-                                <div class="row">
-                                    <div class="column">
-                                        <a href="#" th:href="@{/tags/{id}(id=${tag.id})}" class="ui basic left pointing label" th:classappend="${tag.id==activeTagId} ? 'teal'" th:each="tag : ${blog.tags}" th:text="${tag.name}">编程</a>
-                                    </div>
+                                <div class="right aligned five wide column">
+                                    <a href="#" th:href="@{/types/{id}(id=${blog.type.id})}" target="_blank" class="ui teal basic label m-text-thin" th:text="${blog.type.name}">Java</a>
                                 </div>
                             </div>
                         </div>
@@ -269,6 +245,7 @@
                 <!--*/-->
 
         </div>
+
             <div class="ui bottom attached segment" th:if="${page.totalPages}>1">
                 <div class="ui middle aligned two column grid">
                     <div class="column">

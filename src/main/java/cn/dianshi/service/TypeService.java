@@ -19,6 +19,8 @@ public interface TypeService {
 
     public abstract List<Type> listType();
 
+    public abstract List<Type> listTypeTop(Integer size);
+
     public abstract Type updateType(Long id, Type type) throws NotFoundException;
 
     public abstract void deleteType(Long id);

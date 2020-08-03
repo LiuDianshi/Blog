@@ -27,6 +27,7 @@ public class Blog {
     @Basic(fetch = FetchType.LAZY)
     @Lob
     private String content;
+
     private String firstPicture;
     private String flag;
     private Integer views;
