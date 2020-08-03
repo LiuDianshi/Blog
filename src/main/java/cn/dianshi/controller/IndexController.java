@@ -29,7 +29,7 @@ public class IndexController {
     @Autowired
     private TagService tagService;
 
-    @GetMapping("/index")
+    @GetMapping(path = {"/","/index"})
     public String index(@PageableDefault(size = 5, sort = {"updateTime"}, direction = Sort.Direction.DESC) Pageable pageable,
                         Model model) throws NotFoundException {
         model.addAttribute("page",blogService.listBlog(pageable));
@@ -56,7 +56,6 @@ public class IndexController {
 
     @GetMapping(path = "/footer/newblog")
     public String newblogs(Model model){
-        System.out.println(2333);
         model.addAttribute("newblogs",blogService.listRecommendBlogTop(3));
         return "_fragments :: newBlogList";
     }

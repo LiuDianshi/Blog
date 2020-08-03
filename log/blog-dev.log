@@ -3349,3 +3349,1610 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as express
 2020-08-03 14:56:20.074  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
 2020-08-03 14:56:20.078  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
 2020-08-03 14:56:20.078  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:02:21.517  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/types/1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:02:21.525  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:02:21.525  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:02:21.818  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:02:21.822  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:02:21.822  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:02:28.781  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/blog/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[24, {}]}
+2020-08-03 15:02:28.792  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:02:28.792  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:02:29.054  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:02:29.058  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:02:29.058  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:02:29.157  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/comments/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[24, {}]}
+2020-08-03 15:02:29.159  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:02:29.159  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:01.060  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:03:01.067  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:03:01.067  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:05.117  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:03:05.126  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:03:05.126  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:05.455  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:03:05.458  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:03:05.459  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:23.359  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/blog/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[24, {}]}
+2020-08-03 15:03:23.370  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:03:23.370  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:23.635  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:03:23.639  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:03:23.639  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:23.732  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/comments/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[24, {}]}
+2020-08-03 15:03:23.734  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:03:23.734  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:26.975  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/blog/45', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[45, {}]}
+2020-08-03 15:03:26.987  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:03:26.987  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:27.270  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:03:27.274  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:03:27.274  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:27.391  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/comments/45', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[45, {}]}
+2020-08-03 15:03:27.392  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:03:27.392  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:43.885  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:03:43.896  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:03:43.896  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:03:44.176  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:03:44.179  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:03:44.179  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:16:47.452  INFO 36136 --- [Thread-381] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:16:47.453  INFO 36136 --- [Thread-381] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:16:47.453  INFO 36136 --- [Thread-381] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-08-03 15:16:47.463  INFO 36136 --- [Thread-381] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-08-03 15:16:47.599  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Starting BlogApplication on Dianshi-Desktop with PID 36136 (C:\Users\Dianshi\IdeaProjects\DianshiBlog\target\classes started by Dianshi in C:\Users\Dianshi\IdeaProjects\DianshiBlog)
+2020-08-03 15:16:47.600 DEBUG 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-08-03 15:16:47.600  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : The following profiles are active: dev
+2020-08-03 15:16:47.945  INFO 36136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-03 15:16:47.981  INFO 36136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 5 JPA repository interfaces.
+2020-08-03 15:16:48.142  INFO 36136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-03 15:16:48.143  INFO 36136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-03 15:16:48.143  INFO 36136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-03 15:16:48.160  INFO 36136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-03 15:16:48.160  INFO 36136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2020-08-03 15:16:48.240  INFO 36136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:16:48.266  INFO 36136 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-03 15:16:48.273  INFO 36136 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-08-03 15:16:48.287  INFO 36136 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-08-03 15:16:48.287  INFO 36136 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-03 15:16:48.393  WARN 36136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-03 15:16:48.489  INFO 36136 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-03 15:16:48.490  INFO 36136 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:16:48.653  INFO 36136 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-03 15:16:48.686  INFO 36136 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-03 15:16:48.938  INFO 36136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-03 15:16:48.939  INFO 36136 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-03 15:16:49.262  INFO 36136 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-03 15:16:49.266  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Started BlogApplication in 1.723 seconds (JVM running for 2651.996)
+2020-08-03 15:16:49.268  INFO 36136 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-03 15:16:50.836  INFO 36136 --- [Thread-570] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:16:50.837  INFO 36136 --- [Thread-570] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:16:50.837  INFO 36136 --- [Thread-570] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-08-03 15:16:50.846  INFO 36136 --- [Thread-570] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-08-03 15:16:50.922  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Starting BlogApplication on Dianshi-Desktop with PID 36136 (C:\Users\Dianshi\IdeaProjects\DianshiBlog\target\classes started by Dianshi in C:\Users\Dianshi\IdeaProjects\DianshiBlog)
+2020-08-03 15:16:50.923 DEBUG 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-08-03 15:16:50.923  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : The following profiles are active: dev
+2020-08-03 15:16:51.129  INFO 36136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-03 15:16:51.153  INFO 36136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 5 JPA repository interfaces.
+2020-08-03 15:16:51.265  INFO 36136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-03 15:16:51.266  INFO 36136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-03 15:16:51.266  INFO 36136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-03 15:16:51.279  INFO 36136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-03 15:16:51.279  INFO 36136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 355 ms
+2020-08-03 15:16:51.338  INFO 36136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:16:51.352  INFO 36136 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-03 15:16:51.358  INFO 36136 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-08-03 15:16:51.367  INFO 36136 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-08-03 15:16:51.367  INFO 36136 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-03 15:16:51.434  WARN 36136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-03 15:16:51.503  INFO 36136 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-03 15:16:51.504  INFO 36136 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:16:51.603  INFO 36136 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-03 15:16:51.626  INFO 36136 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-03 15:16:51.848  INFO 36136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-03 15:16:51.848  INFO 36136 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-03 15:16:52.090  INFO 38320 --- [main] cn.dianshi.blog.BlogApplicationTests     : Starting BlogApplicationTests on Dianshi-Desktop with PID 38320 (started by Dianshi in C:\Users\Dianshi\IdeaProjects\DianshiBlog)
+2020-08-03 15:16:52.091 DEBUG 38320 --- [main] cn.dianshi.blog.BlogApplicationTests     : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-08-03 15:16:52.091  INFO 38320 --- [main] cn.dianshi.blog.BlogApplicationTests     : The following profiles are active: dev
+2020-08-03 15:16:52.112  INFO 36136 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-03 15:16:52.114  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Started BlogApplication in 1.22 seconds (JVM running for 2654.844)
+2020-08-03 15:16:52.115  INFO 36136 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-03 15:16:52.787  INFO 38320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-03 15:16:52.865  INFO 38320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 5 JPA repository interfaces.
+2020-08-03 15:16:53.603  INFO 38320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:16:53.678  INFO 38320 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-03 15:16:53.744  INFO 38320 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-03 15:16:53.909  INFO 38320 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-03 15:16:54.123  WARN 38320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-03 15:16:54.419  INFO 38320 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-03 15:16:54.606  INFO 38320 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-03 15:16:54.795  INFO 38320 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-03 15:16:54.835  INFO 38320 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-03 15:16:55.076  INFO 38320 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories��
+2020-08-03 15:16:55.704  INFO 38320 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-03 15:16:55.711  INFO 38320 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:16:56.258  INFO 38320 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-03 15:16:56.264  INFO 38320 --- [main] cn.dianshi.blog.BlogApplicationTests     : Started BlogApplicationTests in 4.596 seconds (JVM running for 5.632)
+2020-08-03 15:16:56.511  INFO 38320 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:16:56.513  INFO 38320 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:16:56.513  INFO 38320 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-03 15:16:56.525  INFO 38320 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-03 15:17:33.941  INFO 36136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-03 15:17:33.941  INFO 36136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-03 15:17:33.946  INFO 36136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-08-03 15:17:36.484 ERROR 36136 --- [http-nio-8080-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-6] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 48, col 91)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 48, col 91)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 69 common frames omitted
+
+2020-08-03 15:17:36.486 ERROR 36136 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+2020-08-03 15:17:43.216 ERROR 36136 --- [http-nio-8080-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-4] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 48, col 91)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 48, col 91)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 69 common frames omitted
+
+2020-08-03 15:17:43.217 ERROR 36136 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+2020-08-03 15:17:59.816  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:17:59.832  WARN 36136 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-03 15:17:59.836  WARN 36136 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-03 15:17:59.841  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:17:59.841  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:18:00.216  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:18:00.221  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:18:00.222  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:18:42.312 ERROR 36136 --- [http-nio-8080-exec-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-4] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 48, col 91)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalElements" (template: "index" - line 48, col 91)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 69 common frames omitted
+
+2020-08-03 15:18:42.312 ERROR 36136 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalElements' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+2020-08-03 15:19:16.738  INFO 36136 --- [Thread-759] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:19:16.739  INFO 36136 --- [Thread-759] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:19:16.739  INFO 36136 --- [Thread-759] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-08-03 15:19:16.743  INFO 36136 --- [Thread-759] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-08-03 15:19:16.812  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Starting BlogApplication on Dianshi-Desktop with PID 36136 (C:\Users\Dianshi\IdeaProjects\DianshiBlog\target\classes started by Dianshi in C:\Users\Dianshi\IdeaProjects\DianshiBlog)
+2020-08-03 15:19:16.813 DEBUG 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-08-03 15:19:16.813  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : The following profiles are active: dev
+2020-08-03 15:19:16.999  INFO 36136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-03 15:19:17.026  INFO 36136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 5 JPA repository interfaces.
+2020-08-03 15:19:17.134  INFO 36136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-03 15:19:17.135  INFO 36136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-03 15:19:17.135  INFO 36136 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-03 15:19:17.145  INFO 36136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-03 15:19:17.145  INFO 36136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 331 ms
+2020-08-03 15:19:17.192  INFO 36136 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-03 15:19:17.205  INFO 36136 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-03 15:19:17.210  INFO 36136 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-08-03 15:19:17.219  INFO 36136 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-08-03 15:19:17.220  INFO 36136 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-03 15:19:17.277  WARN 36136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-03 15:19:17.330  INFO 36136 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-03 15:19:17.331  INFO 36136 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 15:19:17.450  INFO 36136 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-03 15:19:17.453  INFO 36136 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-03 15:19:17.712  INFO 36136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-03 15:19:17.712  INFO 36136 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-03 15:19:17.932  INFO 36136 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-03 15:19:17.936  INFO 36136 --- [restartedMain] cn.dianshi.BlogApplication               : Started BlogApplication in 1.147 seconds (JVM running for 2800.667)
+2020-08-03 15:19:17.937  INFO 36136 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-08-03 15:19:19.055  INFO 36136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-03 15:19:19.055  INFO 36136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-03 15:19:19.060  INFO 36136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-08-03 15:19:19.063  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:19:19.075  WARN 36136 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-03 15:19:19.079  WARN 36136 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-03 15:19:19.084  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:19:19.085  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:19.439  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:19:19.443  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:19:19.443  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:22.420  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:19:22.429  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:19:22.429  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:22.755  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:19:22.759  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:19:22.759  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:23.388  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/types/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:19:23.396  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:19:23.396  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:23.727  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:19:23.731  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:19:23.731  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:25.054  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:19:25.065  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:19:25.065  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:26.669  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='cn.dianshi.controller.ArchiveShowController.archives', args=[{}]}
+2020-08-03 15:19:26.681  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: archives
+2020-08-03 15:19:26.681  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:26.973  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:19:26.976  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:19:26.977  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:28.224  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/blog/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[24, {}]}
+2020-08-03 15:19:28.250  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:19:28.250  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:28.515  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:19:28.519  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:19:28.519  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:28.668  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/comments/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[24, {}]}
+2020-08-03 15:19:28.678  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:19:28.678  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:32.691  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:19:32.701  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:19:32.701  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:19:33.078  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:19:33.082  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:19:33.082  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:04.298  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:20:04.308  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:20:04.308  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:08.758  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:20:08.762  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:20:08.762  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:08.769  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:20:08.773  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:20:08.774  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:11.233  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:20:11.239  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:20:11.239  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:11.577  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:20:11.585  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:20:11.586  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:14.533  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:20:14.536  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:20:14.536  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:29.172  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[24, {}]}
+2020-08-03 15:20:29.181  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:20:29.181  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:35.542  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/about', ip='127.0.0.1', classMethod='cn.dianshi.controller.AboutShowController.about', args=[]}
+2020-08-03 15:20:35.543  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: about
+2020-08-03 15:20:35.543  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:38.102  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:20:38.106  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:20:38.106  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:38.283  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/comments/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[24, {}]}
+2020-08-03 15:20:38.284  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:20:38.284  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:20:47.594  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:20:47.597  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:20:47.598  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:16.813  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:21:16.817  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:21:16.818  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:26.190  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/-5', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-5, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:21:26.194  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:21:26.194  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:26.361  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:21:26.369  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:21:26.369  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:26.458  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:21:26.464  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:21:26.464  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:32.321  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:21:32.325  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:21:32.325  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:33.792  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:21:33.797  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:21:33.797  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:38.065  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:21:38.070  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:21:38.070  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:39.783  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:21:39.786  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:21:39.787  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:21:43.762 ERROR 36136 --- [http-nio-8080-exec-9] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-08-03 15:21:43.762  WARN 36136 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2020-08-03 15:21:53.621 ERROR 36136 --- [http-nio-8080-exec-4] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-08-03 15:21:53.621  WARN 36136 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2020-08-03 15:22:00.308  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:22:00.313  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:22:00.313  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:22:06.435 ERROR 36136 --- [http-nio-8080-exec-3] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-08-03 15:22:06.436  WARN 36136 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2020-08-03 15:22:18.779  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/archives', ip='127.0.0.1', classMethod='cn.dianshi.controller.ArchiveShowController.archives', args=[{}]}
+2020-08-03 15:22:18.787  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: archives
+2020-08-03 15:22:18.787  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:22:23.028  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:22:23.032  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:22:23.032  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:22:28.548  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/archives', ip='127.0.0.1', classMethod='cn.dianshi.controller.ArchiveShowController.archives', args=[{}]}
+2020-08-03 15:22:28.555  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: archives
+2020-08-03 15:22:28.555  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:22:30.087  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:22:30.091  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:22:30.091  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:22:48.800 ERROR 36136 --- [http-nio-8080-exec-1] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-08-03 15:22:48.800  WARN 36136 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2020-08-03 15:23:06.876 ERROR 36136 --- [http-nio-8080-exec-5] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-08-03 15:23:06.876  WARN 36136 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2020-08-03 15:24:08.695 ERROR 36136 --- [http-nio-8080-exec-7] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/types/test, Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "test"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-08-03 15:24:08.695  WARN 36136 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "test"]
+2020-08-03 15:24:11.807  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:24:11.811  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:24:11.811  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:24:22.940  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 萨塞, {}]}
+2020-08-03 15:24:22.943  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:24:22.943  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:24:24.481  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:24:24.485  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:24:24.485  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:25:09.462  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], 萨塞, {}]}
+2020-08-03 15:25:09.464  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:25:09.464  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:25:15.692  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:25:15.696  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:25:15.696  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:25:16.292  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:25:16.296  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:25:16.296  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:25:20.821  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:25:20.825  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:25:20.825  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:25:48.588  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/7', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[7, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:25:48.592  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:25:48.593  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:25:51.311  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:25:51.315  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:25:51.315  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:27:42.164  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:27:42.168  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:27:42.168  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:27:49.315  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Docker, {}]}
+2020-08-03 15:27:49.319  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:27:49.319  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:28:43.930  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java%, {}]}
+2020-08-03 15:28:43.934  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:28:43.934  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:28:52.811  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:28:52.814  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:28:52.815  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:28:54.288  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:28:54.292  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:28:54.292  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:28:57.749  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java, {}]}
+2020-08-03 15:28:57.753  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:28:57.753  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:30:18.420  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java', {}]}
+2020-08-03 15:30:18.422  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:30:18.422  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:30:29.240  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java', {}]}
+2020-08-03 15:30:29.242  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:30:29.242  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:31:03.093  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java' and 1 = 1 -- , {}]}
+2020-08-03 15:31:03.095  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:31:03.095  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:31:11.526  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java' and 1 = 1 -- , {}]}
+2020-08-03 15:31:11.528  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:31:11.528  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:32:40.533  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java' and 1 = 1 -- , {}]}
+2020-08-03 15:32:40.535  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:32:40.535  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:32:51.761  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java' and 1 = 1 -- , {}]}
+2020-08-03 15:32:51.764  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:32:51.764  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:32:53.274  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java' and 1 = 1 -- , {}]}
+2020-08-03 15:32:53.276  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:32:53.276  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:20.588  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java“, {}]}
+2020-08-03 15:33:20.590  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:33:20.590  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:22.286  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Java' and 1 = 1 -- , {}]}
+2020-08-03 15:33:22.288  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:33:22.288  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:27.106  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Jav, {}]}
+2020-08-03 15:33:27.110  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:33:27.110  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:30.020  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Jav, {}]}
+2020-08-03 15:33:30.023  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:33:30.023  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:33.185  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], Jav, {}]}
+2020-08-03 15:33:33.188  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:33:33.189  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:38.180  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/26', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[26, {}]}
+2020-08-03 15:33:38.192  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:33:38.192  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:39.376  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:33:39.379  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:33:39.379  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:39.600  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/comments/26', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[26, {}]}
+2020-08-03 15:33:39.609  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:33:39.609  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:48.824  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/25', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[25, {}]}
+2020-08-03 15:33:48.834  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:33:48.834  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:50.652  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:33:50.656  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:33:50.656  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:50.747  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/comments/25', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[25, {}]}
+2020-08-03 15:33:50.749  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:33:50.749  INFO 36136 --- [http-nio-8080-exec-8] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:55.036  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/2', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[2, {}]}
+2020-08-03 15:33:55.039  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:55.039 ERROR 36136 --- [http-nio-8080-exec-2] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/blog/2, Exception : {}
+
+org.springframework.beans.InvalidPropertyException: Invalid property 'appreciation' of bean class [cn.dianshi.domain.Blog$HibernateProxy$CPBVQ4pr]: Getter for property 'appreciation' threw exception; nested exception is java.lang.reflect.InvocationTargetException
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:703)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:612)
+	at cn.dianshi.util.MyBeanUtils.getNullPropertyNames(MyBeanUtils.java:23)
+	at cn.dianshi.service.Impl.BlogServiceImpl.getAndConvertBlog(BlogServiceImpl.java:43)
+	at cn.dianshi.service.Impl.BlogServiceImpl$$FastClassBySpringCGLIB$$4e081d4d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at cn.dianshi.service.Impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$2c2cb94c.getAndConvertBlog(<generated>)
+	at cn.dianshi.controller.IndexController.getBlog(IndexController.java:53)
+	at cn.dianshi.controller.IndexController$$FastClassBySpringCGLIB$$5841b16b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at cn.dianshi.controller.IndexController$$EnhancerBySpringCGLIB$$270e44d8.getBlog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.BeanWrapperImpl$BeanPropertyHandler.getValue(BeanWrapperImpl.java:308)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:625)
+	... 84 common frames omitted
+Caused by: javax.persistence.EntityNotFoundException: Unable to find cn.dianshi.domain.Blog with id 2
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$JpaEntityNotFoundDelegate.handleEntityNotFound(EntityManagerFactoryBuilderImpl.java:163)
+	at org.hibernate.proxy.AbstractLazyInitializer.checkTargetState(AbstractLazyInitializer.java:286)
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:181)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at cn.dianshi.domain.Blog$HibernateProxy$CPBVQ4pr.getAppreciation(Unknown Source)
+	... 90 common frames omitted
+
+2020-08-03 15:33:55.040  WARN 36136 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.beans.InvalidPropertyException: Invalid property 'appreciation' of bean class [cn.dianshi.domain.Blog$HibernateProxy$CPBVQ4pr]: Getter for property 'appreciation' threw exception; nested exception is java.lang.reflect.InvocationTargetException]
+2020-08-03 15:33:59.024  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/2', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[2, {}]}
+2020-08-03 15:33:59.026  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:33:59.026 ERROR 36136 --- [http-nio-8080-exec-6] c.d.handler.ControllerExceptionHandler   : Request URL : http://webcontent.utools.club/blog/2, Exception : {}
+
+org.springframework.beans.InvalidPropertyException: Invalid property 'appreciation' of bean class [cn.dianshi.domain.Blog$HibernateProxy$CPBVQ4pr]: Getter for property 'appreciation' threw exception; nested exception is java.lang.reflect.InvocationTargetException
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:703)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:612)
+	at cn.dianshi.util.MyBeanUtils.getNullPropertyNames(MyBeanUtils.java:23)
+	at cn.dianshi.service.Impl.BlogServiceImpl.getAndConvertBlog(BlogServiceImpl.java:43)
+	at cn.dianshi.service.Impl.BlogServiceImpl$$FastClassBySpringCGLIB$$4e081d4d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at cn.dianshi.service.Impl.BlogServiceImpl$$EnhancerBySpringCGLIB$$2c2cb94c.getAndConvertBlog(<generated>)
+	at cn.dianshi.controller.IndexController.getBlog(IndexController.java:53)
+	at cn.dianshi.controller.IndexController$$FastClassBySpringCGLIB$$5841b16b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at cn.dianshi.controller.IndexController$$EnhancerBySpringCGLIB$$270e44d8.getBlog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.BeanWrapperImpl$BeanPropertyHandler.getValue(BeanWrapperImpl.java:308)
+	at org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:625)
+	... 84 common frames omitted
+Caused by: javax.persistence.EntityNotFoundException: Unable to find cn.dianshi.domain.Blog with id 2
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$JpaEntityNotFoundDelegate.handleEntityNotFound(EntityManagerFactoryBuilderImpl.java:163)
+	at org.hibernate.proxy.AbstractLazyInitializer.checkTargetState(AbstractLazyInitializer.java:286)
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:181)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at cn.dianshi.domain.Blog$HibernateProxy$CPBVQ4pr.getAppreciation(Unknown Source)
+	... 90 common frames omitted
+
+2020-08-03 15:33:59.026  WARN 36136 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.beans.InvalidPropertyException: Invalid property 'appreciation' of bean class [cn.dianshi.domain.Blog$HibernateProxy$CPBVQ4pr]: Getter for property 'appreciation' threw exception; nested exception is java.lang.reflect.InvocationTargetException]
+2020-08-03 15:35:45.611  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:35:45.615  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:35:45.615  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:35:48.299  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:35:48.303  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:35:48.303  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:35:51.166  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:35:51.171  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:35:51.171  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:35:55.826  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:35:55.831  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:35:55.832  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:35:59.710  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/12', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[12, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:35:59.716  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:35:59.716  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:04.626  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/14', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[14, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:36:04.631  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:36:04.631  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:10.110  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/45', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[45, {}]}
+2020-08-03 15:36:10.125  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:36:10.126  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:11.853  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:36:11.861  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:36:11.861  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:11.974  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/comments/45', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[45, {}]}
+2020-08-03 15:36:11.976  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:36:11.976  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:28.071  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/about', ip='127.0.0.1', classMethod='cn.dianshi.controller.AboutShowController.about', args=[]}
+2020-08-03 15:36:28.071  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: about
+2020-08-03 15:36:28.071  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:34.288  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:36:34.298  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:36:34.298  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:36.319  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:36:36.322  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:36:36.322  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:38.779  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/25', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[25, {}]}
+2020-08-03 15:36:38.788  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:36:38.788  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:42.660  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/search', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.search', args=[Page request [number: 0, size 5, sort: updateTime: DESC], , {}]}
+2020-08-03 15:36:42.664  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : Result: search
+2020-08-03 15:36:42.664  INFO 36136 --- [http-nio-8080-exec-9] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:46.582  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/tags/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:36:46.588  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: tags
+2020-08-03 15:36:46.588  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:48.405  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/types/-1', ip='127.0.0.1', classMethod='cn.dianshi.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:36:48.409  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: types
+2020-08-03 15:36:48.410  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:36:49.596  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:36:49.599  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:36:49.599  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:37:16.581  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/about', ip='127.0.0.1', classMethod='cn.dianshi.controller.AboutShowController.about', args=[]}
+2020-08-03 15:37:16.581  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : Result: about
+2020-08-03 15:37:16.581  INFO 36136 --- [http-nio-8080-exec-6] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:37:22.750  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:37:22.759  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:37:22.759  INFO 36136 --- [http-nio-8080-exec-10] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:37:30.412  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:37:30.416  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:37:30.416  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:37:35.508  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:37:35.516  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:37:35.516  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:37:38.996  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/about', ip='127.0.0.1', classMethod='cn.dianshi.controller.AboutShowController.about', args=[]}
+2020-08-03 15:37:38.996  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: about
+2020-08-03 15:37:38.996  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:37:49.385  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:37:49.389  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:37:49.389  INFO 36136 --- [http-nio-8080-exec-4] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:38:12.961  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/index', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.index', args=[Page request [number: 0, size 5, sort: updateTime: DESC], {}]}
+2020-08-03 15:38:12.969  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : Result: index
+2020-08-03 15:38:12.970  INFO 36136 --- [http-nio-8080-exec-7] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:38:16.405  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:38:16.408  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:38:16.408  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:38:27.844  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/blog/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.getBlog', args=[24, {}]}
+2020-08-03 15:38:27.855  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : Result: blog
+2020-08-03 15:38:27.855  INFO 36136 --- [http-nio-8080-exec-2] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:38:37.120  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/footer/newblog', ip='127.0.0.1', classMethod='cn.dianshi.controller.IndexController.newblogs', args=[{}]}
+2020-08-03 15:38:37.124  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : Result: _fragments :: newBlogList
+2020-08-03 15:38:37.124  INFO 36136 --- [http-nio-8080-exec-3] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:38:37.203  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/comments/24', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.getComments', args=[24, {}]}
+2020-08-03 15:38:37.205  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : Result: blog :: commentList
+2020-08-03 15:38:37.205  INFO 36136 --- [http-nio-8080-exec-5] cn.dianshi.aspect.LogAspect              : --------deAfter--------
+2020-08-03 15:38:51.007  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Resuest: RequestLog{url='http://webcontent.utools.club/comments', ip='127.0.0.1', classMethod='cn.dianshi.controller.CommentController.postComment', args=[Comment(id=null, nickname=sd, email=sd@qq.cm, content=阿塞啊塞, avatar=null, createTime=null, adminComment=false, blog=Blog(id=24, title=null, content=null, firstPicture=null, flag=null, views=null, appreciation=null, shareStatement=null, commentEnabled=null, published=null, recommend=null, createTime=null, updateTime=null, description=null, tagIds=null, type=null, tags=[], user=null, comments=[]), replyComments=[], parentComment=Comment(id=-1, nickname=null, email=null, content=null, avatar=null, createTime=null, adminComment=false, blog=null, replyComments=[], parentComment=null)), org.apache.catalina.session.StandardSessionFacade@6be40978]}
+2020-08-03 15:38:51.038  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : Result: redirect:/comments/24
+2020-08-03 15:38:51.038  INFO 36136 --- [http-nio-8080-exec-1] cn.dianshi.aspect.LogAspect              : --------deAfter--------
